@@ -1,0 +1,31 @@
+{
+  "name": "cpo",
+  "version": "1.0.0",
+  "description": "ss",
+  "main": "ch.js",
+  "bin": {
+    "chrome-password-prompt": "ch.js"
+  },
+  "scripts": {
+    "start": "node ch.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "chmod +x ch.js"
+  },
+  "keywords": [
+    "chrome",
+    "password",
+    "macos",
+    "security",
+    "prompt"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "os": [
+    "darwin"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
